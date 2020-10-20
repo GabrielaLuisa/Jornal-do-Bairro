@@ -1,0 +1,100 @@
+body{
+    background-color:  #f7fa5e;
+} 
+
+header{
+    background-color: #72ec72;
+    margin: 0px;
+    border: 15px;
+    padding: 15px;
+}
+
+header h1{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(21, 4, 114);
+    transition: color 250ms ease;
+    animation: cor 1s ease-in alternate infinite;
+}
+@keyframes cor {
+    0%{
+        letter-spacing:0px ;
+    }
+    10%{
+        letter-spacing: 1px;
+    }
+    20%{
+        letter-spacing:2px ;
+    }
+    30%{ 
+        letter-spacing:3px ;
+    }
+    40%{
+        letter-spacing:4px ;
+    }
+    50%{
+        letter-spacing:5px ;
+    }
+    60%{
+        letter-spacing:6px ;
+    }
+    70%{
+        letter-spacing:7px ;
+    }
+    80%{
+        letter-spacing:8px ;
+    }
+    90%{
+        letter-spacing:9px ;
+    }
+    100%{
+        letter-spacing:10px ;
+    }
+}
+header h1:hover{
+    color: rgb(48, 129, 221);
+}
+
+ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+section link{
+    float: right;
+}
+ul li a:hover{
+    color: whitesmoke;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ img{
+    float: right;
+    width: 200px;
+    height: 150px;
+}
+main img{
+    float: right;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+main .politica img{
+    float: right;
+    width: 200px;
+    height: 300px;
+}
+footer{
+    background-color: #72ec72;
+    margin: 0px;
+    border: 15px;
+    padding: 15px;
+}
+footer h1{
+    text-align: center;
+}
